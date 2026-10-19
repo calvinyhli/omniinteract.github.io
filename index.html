@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids. Surface contact-aware retargeting and scalable residual policy learning.">
+  <meta name="theme-color" content="#10181d">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://calvinyhli.github.io/omniinteract.github.io/">
+  <title>OmniInteract — Whole-Body Interaction for Dual Humanoids</title>
+  <link rel="icon" type="image/svg+xml" sizes="any" href="assets/favicon-robots-hd-circle.svg?v=20261019-circle-hd">
+  <link rel="stylesheet" href="styles.css?v=20261019-release">
+  <script src="site-config.js?v=20261019-release" defer></script>
+  <script src="app.js?v=20261019-release" defer></script>
+</head>
+<body class="predactor-cover">
+  <a class="skip-link" href="#overview">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="OmniInteract home"><span class="nav-brand-crop"><img id="nav-logo" src="assets/omniinteract-logo-transparent.png" width="2172" height="724" alt="OmniInteract"></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">＋</span></button>
+      <div class="nav-links" id="site-nav"></div>
+      <a class="nav-paper" id="nav-paper" href="assets/OmniInteract.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="project-subtitle">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <video id="hero-video" class="hero-video" muted loop playsinline preload="metadata" poster="assets/hero-user-cut-v4.webp" aria-label="Two humanoid robots performing whole-body interactions"><source src="assets/hero-user-cut-v4.mp4" type="video/mp4"></video>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="hero-brand-crop"><img id="project-logo" src="assets/omniinteract-logo-transparent.png" width="2172" height="724" alt="OmniInteract"></div>
+        <span class="visually-hidden" id="project-name">OmniInteract</span>
+        <p class="hero-eyebrow" id="hero-eyebrow">CS.RO / Dual-Humanoid Interaction</p>
+        <h1 id="project-subtitle" class="hero-subtitle">Towards Unified Whole-Body Interaction Control for Dual Humanoids</h1>
+        <p class="hero-deck" id="hero-description"></p>
+        <ul class="hero-capabilities" aria-label="OmniInteract capabilities">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="6" r="3"/><circle cx="17" cy="6" r="3"/><path d="M2 20v-5a5 5 0 0 1 10 0v5m0 0v-5a5 5 0 0 1 10 0v5"/></svg><span><strong>Dual Humanoid</strong><small>Real-world deployment</small></span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 1v5m0 12v5M1 12h5m12 0h5"/></svg><span><strong>SCAR</strong><small>Surface contact-aware retargeting</small></span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8c5-12 7 12 12 0s7 2 8 0M2 17c5-12 7 12 12 0s7 2 8 0"/></svg><span><strong>Flow policy</strong><small>Partner-conditioned</small></span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M12 6v8m-8-6 8 3 8-3m-8 6-6 8m6-8 6 8"/></svg><span><strong>Whole-body</strong><small>Coordinated interaction</small></span></li>
+        </ul>
+        <div class="resource-links" id="hero-resources" aria-label="Research resources"></div>
+        <p class="resource-status" id="resource-status"></p>
+        <div class="authors" id="authors" aria-label="Authors"></div>
+        <div class="affiliations" id="affiliations" aria-label="Affiliations"></div>
+        <p class="author-note" id="author-note"></p>
+        <div class="institution-band" id="institution-band" aria-label="Affiliated institutions"></div>
+      </div>
+      <button id="hero-toggle" type="button" class="hero-toggle" aria-label="Pause background video">Pause <span aria-hidden="true">Ⅱ</span></button>
+      <div class="hero-bottom">
+        <span class="hero-flow-label"></span>
+        <div class="hero-flow" aria-label="Human interactions to coordinated dual humanoids"><span>Human Interactions</span><i aria-hidden="true">→</i><span>SCAR</span><i aria-hidden="true">→</i><span>Unified Flow Policy</span><i aria-hidden="true">→</i><span>Dual Humanoids Control</span></div>
+        <a href="#overview" class="scroll-cue">Explore <span aria-hidden="true">↓</span></a>
+      </div>
+      <span id="hero-caption" class="hero-video-caption"></span>
+    </section>
+    <div id="content-sections"></div>
+    <noscript><div class="section-shell"><h2>OmniInteract</h2><p>Enable JavaScript to explore the demonstrations and method.</p><p><a href="assets/OmniInteract.pdf">Read the paper</a> · <a href="assets/demos/OmniInteract_demo_web.mp4">Watch the complete video</a></p></div></noscript>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#top">Omni<span>Interact</span></a><p>Whole-body interaction for dual humanoids.</p><a href="#top">Back to top ↑</a></footer>
+  <dialog class="figure-dialog" id="figure-dialog" aria-labelledby="figure-dialog-title"><div class="dialog-bar"><p id="figure-dialog-title"></p><button class="dialog-close" type="button" aria-label="Close enlarged figure">×</button></div><img id="enlarged-figure" alt=""></dialog>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.DS_Store
+.AppleDouble
+Thumbs.db
+*.zip
+*.log
+.env
+.env.*
+node_modules/

@@ -1,0 +1,204 @@
+WEBVTT
+
+1
+00:00:00.250 --> 00:00:03.530
+OmniInteract learns coordinated
+whole-body interactions
+
+2
+00:00:03.530 --> 00:00:06.816
+between two humanoid robots
+from human demonstrations.
+
+3
+00:00:07.278 --> 00:00:12.783
+We tackle two challenges: preserving surface
+contacts despite differences in body shape,
+
+4
+00:00:12.783 --> 00:00:15.008
+and learning motion control
+together with partner
+
+5
+00:00:15.008 --> 00:00:18.257
+coordination as interaction diversity grows.
+
+6
+00:00:19.292 --> 00:00:23.757
+Surface Contact-Aware Retargeting,
+or SCAR, builds dense correspondences
+
+7
+00:00:23.757 --> 00:00:25.788
+between human and robot surfaces.
+
+8
+00:00:25.908 --> 00:00:31.143
+It jointly optimizes both humanoids to preserve
+contact interfaces and nearby geometry.
+
+9
+00:00:31.263 --> 00:00:35.123
+Pose, temporal, and stance
+terms maintain motion fidelity,
+
+10
+00:00:35.123 --> 00:00:38.964
+while kinematic constraints support
+feasible robot configurations.
+
+11
+00:00:39.322 --> 00:00:42.972
+Partner-aware residual experts
+learn interaction corrections
+
+12
+00:00:42.972 --> 00:00:45.047
+on top of a frozen SONIC motion prior.
+
+13
+00:00:45.167 --> 00:00:48.554
+DAgger distills these experts
+into one flow-matching policy.
+
+14
+00:00:48.674 --> 00:00:52.384
+At deployment, the unified
+policy adds residual corrections
+
+15
+00:00:52.384 --> 00:00:54.190
+to the frozen tracker's actions.
+
+16
+00:00:55.327 --> 00:00:59.336
+Grasping and hugging examples compare
+SCAR with prior retargeting methods.
+
+17
+00:00:59.456 --> 00:01:02.276
+The close-ups show how SCAR preserves intended
+
+18
+00:01:02.276 --> 00:01:04.425
+surface contacts and the geometry around them.
+
+19
+00:01:05.358 --> 00:01:10.789
+In simulation, we compare the baseline with
+OmniInteract during hugging and partner dance.
+
+20
+00:01:11.089 --> 00:01:13.654
+These paired views
+highlight whole-body motion,
+
+21
+00:01:13.654 --> 00:01:17.178
+contact alignment, and the
+robots' relative positions.
+
+22
+00:01:19.450 --> 00:01:22.564
+We now move to two physical Unitree G1 robots.
+
+23
+00:01:22.684 --> 00:01:26.407
+An external push displaces one
+robot as it approaches its partner.
+
+24
+00:01:26.527 --> 00:01:30.266
+The robots adjust their relative
+motion and establish hand contact.
+
+25
+00:01:30.386 --> 00:01:32.206
+The replay shows the disturbance,
+
+26
+00:01:32.206 --> 00:01:34.599
+followed by recovery of relative pose
+
+27
+00:01:34.599 --> 00:01:36.819
+and the intended hand contact in this trial.
+
+28
+00:01:37.468 --> 00:01:42.116
+Boxing and sparring involve changing
+relative poses and repeated arm interactions.
+
+29
+00:01:42.416 --> 00:01:46.181
+The robots coordinate upper-body
+motion while maintaining balance,
+
+30
+00:01:46.181 --> 00:01:50.283
+linking the movement of each humanoid
+with the changing position of its partner.
+
+31
+00:01:52.483 --> 00:01:55.105
+Kicking and fencing extend
+the motion repertoire.
+
+32
+00:01:55.225 --> 00:01:59.405
+These examples involve different limb
+movements and changes in relative pose,
+
+33
+00:01:59.405 --> 00:02:02.035
+illustrating the range of
+whole-body interactions
+
+34
+00:02:02.035 --> 00:02:05.045
+performed by the same
+framework on physical robots.
+
+35
+00:02:06.508 --> 00:02:10.529
+Greeting and close-contact interactions
+require a coordinated approach.
+
+36
+00:02:10.649 --> 00:02:14.959
+The robots align their relative pose,
+establish the intended contacts,
+
+37
+00:02:14.959 --> 00:02:17.914
+and continue moving
+together, linking individual
+
+38
+00:02:17.914 --> 00:02:20.599
+motion tracking with
+interaction between partners.
+
+39
+00:02:21.523 --> 00:02:25.610
+Partner dancing combines arm movements
+with coordinated turning and stepping.
+
+40
+00:02:25.810 --> 00:02:30.150
+The robots adjust their relative
+configuration as they change facing direction,
+
+41
+00:02:30.150 --> 00:02:34.413
+bringing whole-body motion and partner
+coordination together in one sequence.
+
+42
+00:02:36.538 --> 00:02:37.588
+OmniInteract.
+
+43
+00:02:37.588 --> 00:02:38.890
+Thank you for watching.
