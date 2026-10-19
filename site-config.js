@@ -75,7 +75,7 @@ window.OMNIINTERACT_CONFIG = {
     "authorNote": "† Corresponding author"
   },
   "resources": {
-    "paper": "assets/OmniInteract.pdf",
+    "paper": "assets/omniinteract_arxiv.pdf",
     "arxiv": "",
     "code": ""
   },
