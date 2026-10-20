@@ -17,6 +17,12 @@ Use relative asset paths such as `assets/demos/example.mp4`. Preserve file-name 
 
 This is a static website with no build step or package installation. Configure GitHub Pages to deploy from `main`, `/(root)`. The `.nojekyll` file keeps assets available without Jekyll processing.
 
+## Website analytics
+
+Cloudflare Web Analytics is installed near the end of `index.html`. It loads only on `calvinyhli.github.io/omniinteract.github.io/`; local previews and other project paths are excluded.
+
+To view page views and visits, sign in to Cloudflare and open **Observability → Analytics → Web analytics → calvinyhli.github.io**. The beacon token in the page is a public site identifier, not an account API key. Statistics begin after installation; earlier visits are unavailable.
+
 ## Credits
 
 The visual layout was inspired by [PredActor](https://masteryip.github.io/predactor.github.io/). Institution logo source URLs are recorded in `LOGO_SOURCES.json`.

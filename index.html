@@ -60,5 +60,17 @@
   </main>
   <footer class="site-footer"><a class="wordmark" href="#top">Omni<span>Interact</span></a><p>Whole-body interaction for dual humanoids.</p><a href="#top">Back to top ↑</a></footer>
   <dialog class="figure-dialog" id="figure-dialog" aria-labelledby="figure-dialog-title"><div class="dialog-bar"><p id="figure-dialog-title"></p><button class="dialog-close" type="button" aria-label="Close enlarged figure">×</button></div><img id="enlarged-figure" alt=""></dialog>
+  <!-- Cloudflare Web Analytics: count only the published project, not local previews. -->
+  <script>
+    if (location.hostname === 'calvinyhli.github.io' &&
+        (location.pathname === '/omniinteract.github.io' ||
+         location.pathname.startsWith('/omniinteract.github.io/'))) {
+      const beacon = document.createElement('script');
+      beacon.type = 'module';
+      beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      beacon.setAttribute('data-cf-beacon', '{"token":"63c639e5d46d4d5cb13b2e0539682eb7"}');
+      document.body.appendChild(beacon);
+    }
+  </script>
 </body>
 </html>
