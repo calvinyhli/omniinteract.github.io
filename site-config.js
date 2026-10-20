@@ -76,7 +76,7 @@ window.OMNIINTERACT_CONFIG = {
   },
   "resources": {
     "paper": "assets/omniinteract_arxiv.pdf",
-    "arxiv": "",
+    "arxiv": "https://arxiv.org/abs/2610.26043",
     "code": ""
   },
   "hero": {
@@ -338,7 +338,7 @@ window.OMNIINTERACT_CONFIG = {
       "kicker": "",
       "title": "Citation",
       "description": "",
-      "bibtex": "@misc{li_omniinteract,\n  title = {{OmniInteract}: Towards Unified Whole-Body Interaction Control for Dual Humanoids},\n  author = {Li, Yinghao and Zhang, Tianyu and Li, Zhuohao and Wei, Yi-Lin and\n            Hong, Fa-Ting and Zhang, Qing and Zheng, Wei-Shi},\n  note = {Manuscript}\n}",
+      "bibtex": "@misc{li2026omniinteractunifiedwholebodyinteraction,\n      title={OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids}, \n      author={Yinghao Li and Tianyu Zhang and Zhuohao Li and Yi-Lin Wei and Fa-Ting Hong and Qing Zhang and Wei-Shi Zheng},\n      year={2026},\n      eprint={2610.26043},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2610.26043}, \n}",
       "citationNote": ""
     }
   ]
