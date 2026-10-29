@@ -89,14 +89,14 @@ window.OMNIINTERACT_CONFIG = {
     "description": "OmniInteract learning diverse humanoid interactions from human demonstrations via surface-aware retargeting and residual learning."
   },
   "fullVideo": {
-    "src": "assets/demos/OmniInteract_demo_web.mp4",
+    "src": "assets/demos/OmniInteract_demo_web.mp4?v=overview-20261029",
     "poster": "assets/project.webp",
-    "captions": "assets/omniinteract-en.vtt",
+    "captions": "",
     "captionLanguage": "en",
     "captionLabel": "English",
-    "description": "English narration and embedded subtitles",
-    "alt": "OmniInteract complete supplementary video with English narration and subtitles",
-    "downloadName": "OmniInteract_Demo.mp4"
+    "description": "English narration, without subtitles",
+    "alt": "OmniInteract complete project video with English narration",
+    "downloadName": "OmniInteract_Demo_OverviewCorrected.mp4"
   },
   "sections": [
     {
